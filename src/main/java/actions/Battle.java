@@ -1,7 +1,7 @@
 package actions;
 
-import domain.EvilLord;
-import domain.Monster;
+import monsters.EvilLord;
+import monsters.Monster;
 
 import java.util.Iterator;
 import java.util.List;
@@ -25,7 +25,14 @@ public class Battle {
         Monster secondWarrior;
         int firstWarriorPosition;
         int secondWarriorPosition;
+        int battleRound = 1;
         while (firstLordArmy.isEmpty() && secondLordArmy.isEmpty()) {
+            System.out.println("The round of battle: " + battleRound);
+            System.out.println("The army of the " + firstLord.getName() + ":");
+            System.out.println(firstLordArmy);
+            System.out.println("The army of the " + secondLord.getName() + ":");
+            System.out.println(secondLordArmy);
+            System.out.println("Fight!!!");
             firstArmyIterator = firstLordArmy.iterator();
             secondArmyIterator = secondLordArmy.iterator();
             while (firstArmyIterator.hasNext() && secondArmyIterator.hasNext()) {
@@ -43,6 +50,7 @@ public class Battle {
                     secondLordArmy.remove(secondWarriorPosition);
                 }
             }
+            battleRound++;
         }
         if (firstLordArmy.isEmpty()) {
             winnerName = secondLord.getName();
@@ -50,8 +58,7 @@ public class Battle {
     }
 
     private void clash(final Monster attacker, final Monster defender) {
-        int healthPointsLeft = defender.getCurrentHealthPoints() - attacker.hitEnemy();
-        defender.setCurrentHealthPoints(healthPointsLeft);
+        defender.getDamage(attacker.hitEnemy());
     }
 
     public String getWinnerName() {

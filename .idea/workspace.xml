@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05456273-dba3-4afa-85cd-55e3f7e934d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/Battle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actions/MementoMori.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Armours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Lich.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Weapons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/builders/GoblinBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/builders/LichBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/builders/MonsterBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lich/LichState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lich/WasNotResurrected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lich/WasResurrected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EvilWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EvilWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actions/MementoMori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lich/MementoMori.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Armours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Armours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/EvilLord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Lich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Lich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Orc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Weapons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/GoblinBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/LichBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,48 +31,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Monster.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="123">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+                <element signature="e#2046#2047#0" expanded="true" />
+                <element signature="e#2072#2073#0" expanded="true" />
+                <element signature="e#2163#2164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Weapons.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="262">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/MonsterBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Orc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Goblin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -79,48 +82,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/actions/Battle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            <state relative-caret-position="287">
+              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
+                <element signature="e#2415#2416#0" expanded="true" />
+                <element signature="e#2438#2439#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Orc.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Lich.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="87">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#950#951#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/EvilLord.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="-650">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/EvilLord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
               <folding>
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1297#1298#0" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Lich.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +154,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,21 +166,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/actions/MementoMori.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Weapons.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Armours.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Goblin.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Lich.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/MonsterBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/builders/MonsterBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Orc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EvilWars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/MonsterType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Monster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/builders/GoblinBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/builders/LichBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Orc.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Monster.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EvilWars.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actions/MementoMori.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lich/LichState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lich/WasResurrected.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lich/WasNotResurrected.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lich/MementoMori.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Lich.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Goblin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Orc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/EvilLord.java" />
         <option value="$PROJECT_DIR$/src/main/java/actions/Battle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Monster.java" />
       </list>
     </option>
   </component>
@@ -182,8 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,7 +257,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="lich" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="evilwars" type="b2602c69:ProjectViewProjectNode" />
@@ -231,23 +265,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="monsters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evilwars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evilwars" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="monsters" type="462c0819:PsiDirectoryNode" />
               <item name="builders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548795639457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549150491887" />
     <property name="last_opened_file_path" value="D:/EPguildRoadmap22" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -279,7 +326,11 @@
       <workItem from="1548524290145" duration="9927000" />
       <workItem from="1548602700443" duration="7530000" />
       <workItem from="1548705459213" duration="1196000" />
-      <workItem from="1548788782479" duration="5102000" />
+      <workItem from="1548788782479" duration="5645000" />
+      <workItem from="1548875309394" duration="2272000" />
+      <workItem from="1548961126175" duration="599000" />
+      <workItem from="1549127113143" duration="599000" />
+      <workItem from="1549136278214" duration="9786000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1548363392659</created>
@@ -302,17 +353,24 @@
       <option name="project" value="LOCAL" />
       <updated>1548536552601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- created domain classes&#10;- created Battle class implementation&#10;- created main class&#10;- created some builders">
+      <created>1548799033262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548799033262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26650000" />
+    <option name="totallyTimeSpent" value="40449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="1" width="1468" height="1043" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27485797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2919034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +385,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -345,52 +403,43 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="- created domain classes&#10;- created Battle class implementation&#10;- created main class&#10;- created some builders" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created domain classes&#10;- created Battle class implementation&#10;- created main class&#10;- created some builders" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/actions/MementoMori.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Goblin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/LichBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/GoblinBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Weapons.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Weapons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
@@ -400,29 +449,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Lich.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/MonsterBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="1650">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="37" />
           <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Monster.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lich/MementoMori.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding>
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Armours.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Armours.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -435,58 +485,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EvilWars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        <state relative-caret-position="275">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/MonsterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lich/WasResurrected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lich/LichState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lich/WasNotResurrected.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/builders/MonsterBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/LichBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="37" />
+        <state relative-caret-position="100">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Goblin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#950#951#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Orc.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Orc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        <state relative-caret-position="100">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/EvilLord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Lich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actions/Battle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        <state relative-caret-position="287">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/EvilLord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state relative-caret-position="123">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,9 +640,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>evilwars</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

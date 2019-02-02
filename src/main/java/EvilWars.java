@@ -1,5 +1,5 @@
 import actions.Battle;
-import domain.EvilLord;
+import monsters.EvilLord;
 
 public class EvilWars {
     public static void main(String[] args) {

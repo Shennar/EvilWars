@@ -1,4 +1,4 @@
-package domain;
+package monsters;
 
 public enum Weapons {
     NONE(0),
