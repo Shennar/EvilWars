@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05456273-dba3-4afa-85cd-55e3f7e934d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lich/LichState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lich/WasNotResurrected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lich/WasResurrected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvilWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EvilWars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actions/Battle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/actions/MementoMori.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lich/MementoMori.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Armours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Armours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/EvilLord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/EvilLord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Goblin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Lich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Lich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Orc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Orc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Weapons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/Weapons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/GoblinBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/LichBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/builders/OrcBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
@@ -64,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Orc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -73,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Goblin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="425">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -108,15 +91,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/monsters/EvilLord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -137,12 +111,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Lich.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="537">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EvilWars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,15 +171,15 @@
         <option value="$PROJECT_DIR$/src/main/java/lich/WasResurrected.java" />
         <option value="$PROJECT_DIR$/src/main/java/lich/WasNotResurrected.java" />
         <option value="$PROJECT_DIR$/src/main/java/lich/MementoMori.java" />
-        <option value="$PROJECT_DIR$/src/main/java/monsters/Lich.java" />
         <option value="$PROJECT_DIR$/src/main/java/monsters/builders/SomeMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/monsters/Goblin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/monsters/Orc.java" />
         <option value="$PROJECT_DIR$/src/main/java/monsters/builders/OrcBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/monsters/EvilLord.java" />
         <option value="$PROJECT_DIR$/src/main/java/actions/Battle.java" />
         <option value="$PROJECT_DIR$/src/main/java/monsters/Monster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Goblin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Orc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/monsters/Lich.java" />
       </list>
     </option>
   </component>
@@ -288,7 +274,7 @@
     <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549150491887" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549151057917" />
     <property name="last_opened_file_path" value="D:/EPguildRoadmap22" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -308,6 +294,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="EvilWars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvilWars" />
+      <module name="evilwars" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EvilWars" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -330,7 +330,7 @@
       <workItem from="1548875309394" duration="2272000" />
       <workItem from="1548961126175" duration="599000" />
       <workItem from="1549127113143" duration="599000" />
-      <workItem from="1549136278214" duration="9786000" />
+      <workItem from="1549136278214" duration="10489000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1548363392659</created>
@@ -360,11 +360,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548799033262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- created builders&#10;- added logic">
+      <created>1549150533879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549150533879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40449000" />
+    <option name="totallyTimeSpent" value="41152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="1" width="1468" height="1043" extended-state="0" />
@@ -377,6 +384,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -385,7 +393,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -433,7 +441,8 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="- created domain classes&#10;- created Battle class implementation&#10;- created main class&#10;- created some builders" />
-    <option name="LAST_COMMIT_MESSAGE" value="- created domain classes&#10;- created Battle class implementation&#10;- created main class&#10;- created some builders" />
+    <MESSAGE value="- created builders&#10;- added logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="- created builders&#10;- added logic" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -479,16 +488,6 @@
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#282#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EvilWars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Goblin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/monsters/builders/GoblinBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -561,13 +553,6 @@
             <element signature="e#880#881#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Orc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -600,18 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Lich.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/actions/Battle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -633,6 +606,42 @@
             <element signature="e#2046#2047#0" expanded="true" />
             <element signature="e#2072#2073#0" expanded="true" />
             <element signature="e#2163#2164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Goblin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Orc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/monsters/Lich.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EvilWars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
