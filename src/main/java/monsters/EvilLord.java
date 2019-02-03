@@ -31,15 +31,15 @@ public class EvilLord {
         for (int i = 0; i < armySize; i++) {
             if (i == lichPosition) {
                 army.add(lich);
-                break;
+                continue;
             }
             if (new Random().nextInt(101) <= 60) {
                 army.add(GoblinBuilder.cathcGoblin()
-                        .giveName("" + i)
+                        .giveName("" + (i+1) + " of the " + name)
                         .build());
             } else {
                 army.add(OrcBuilder.cathcOrc()
-                        .giveName("" + i)
+                        .giveName("" + (i+1) + " of the " + name)
                         .build());
             }
         }

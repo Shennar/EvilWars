@@ -14,6 +14,7 @@ public class Goblin extends Monster {
 
     @Override
     public void getDamage(int damageCaused) {
+        setCurrentHealthPoints(getCurrentHealthPoints() - damageCaused);
 
     }
 }

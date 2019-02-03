@@ -10,7 +10,7 @@ public class Lich extends Monster {
     private EvilLord lord;
 
     public Lich(EvilLord lord) {
-        this.setMonsterName(lord.getName() + "' Lich");
+        this.setMonsterName(lord.getName() + "'s Lich");
         this.setHealthPoints(80);
         this.setHitPoints(0);
         this.setWeaponType(Weapons.FIREBALL);
@@ -22,7 +22,10 @@ public class Lich extends Monster {
 
     @Override
     public void getDamage(int damageCaused) {
-
+        setCurrentHealthPoints(getCurrentHealthPoints() - damageCaused);
+        if (getCurrentHealthPoints() <= 0) {
+            notifyLord();
+        }
     }
 
     public void setNewState(LichState state) {

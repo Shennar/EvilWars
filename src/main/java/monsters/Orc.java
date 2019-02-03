@@ -14,6 +14,6 @@ public class Orc extends Monster {
 
     @Override
     public void getDamage(int damageCaused) {
-
+        setCurrentHealthPoints(getCurrentHealthPoints() - damageCaused);
     }
 }

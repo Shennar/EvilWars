@@ -39,12 +39,13 @@ public abstract class Monster {
         return monsterName + " " +
                 "(HP=" + healthPoints + ")" +
                 " wearing " + armourType +
-                "and has a " + weaponType + "\n";
+                " and has a" + (weaponType.equals(Weapons.AXE) ? "n " : " ") +
+                weaponType + "\n";
     }
 
-    public int getHitPoints() {
-        return hitPoints;
-    }
+//    public int getHitPoints() {
+//        return hitPoints;
+//    }
 
     public void setHitPoints(int hitPoints) {
         this.hitPoints = hitPoints;
@@ -58,25 +59,25 @@ public abstract class Monster {
         this.monsterName = monsterName;
     }
 
-    public Armours getArmourType() {
-        return armourType;
-    }
+//    public Armours getArmourType() {
+//        return armourType;
+//    }
 
     public void setArmourType(Armours armourType) {
         this.armourType = armourType;
     }
 
-    public Weapons getWeaponType() {
-        return weaponType;
-    }
+//    public Weapons getWeaponType() {
+//        return weaponType;
+//    }
 
     public void setWeaponType(Weapons weaponType) {
         this.weaponType = weaponType;
     }
 
-    public int getHealthPoints() {
-        return healthPoints;
-    }
+//    public int getHealthPoints() {
+//        return healthPoints;
+//    }
 
     public void setHealthPoints(int healthPoints) {
         this.healthPoints = healthPoints;
@@ -101,7 +102,7 @@ public abstract class Monster {
     }
 
     public Weapons giveWeapons() {
-        final int randomChoice = makeRandomChoice(5);
+        final int randomChoice = makeRandomChoice(4);
         for (final Weapons weap : Weapons.values()) {
             if (weap.ordinal() == randomChoice) {
                 return this.weaponType = weap;
@@ -110,10 +111,8 @@ public abstract class Monster {
         return Weapons.NONE;
     }
 
-
-
     public Armours giveArmour() {
-        final int randomChoice = makeRandomChoice(5);
+        final int randomChoice = makeRandomChoice(4);
         for (final Armours armour : Armours.values()) {
             if (armour.ordinal() == randomChoice) {
                 return this.armourType = armour;

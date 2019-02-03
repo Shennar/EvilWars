@@ -19,6 +19,7 @@ public class Battle {
     public void startBattle() {
         List<Monster> firstLordArmy = firstLord.getArmy();
         List<Monster> secondLordArmy = secondLord.getArmy();
+
         Iterator<Monster> firstArmyIterator;
         Iterator<Monster> secondArmyIterator;
         Monster firstWarrior;
@@ -26,7 +27,7 @@ public class Battle {
         int firstWarriorPosition;
         int secondWarriorPosition;
         int battleRound = 1;
-        while (firstLordArmy.isEmpty() && secondLordArmy.isEmpty()) {
+        while (!firstLordArmy.isEmpty() && !secondLordArmy.isEmpty()) {
             System.out.println("The round of battle: " + battleRound);
             System.out.println("The army of the " + firstLord.getName() + ":");
             System.out.println(firstLordArmy);
@@ -44,13 +45,15 @@ public class Battle {
                 if (secondWarrior.getCurrentHealthPoints() > 0) {
                     clash(secondWarrior, firstWarrior);
                     if (firstWarrior.getCurrentHealthPoints() <= 0) {
-                        firstLordArmy.remove(firstWarriorPosition);
+                        firstLordArmy.add(firstWarriorPosition, null);
                     }
                 } else {
-                    secondLordArmy.remove(secondWarriorPosition);
+                    secondLordArmy.add(secondWarriorPosition, null);
                 }
             }
             battleRound++;
+            cleanArmy(firstLordArmy);
+            cleanArmy(secondLordArmy);
         }
         if (firstLordArmy.isEmpty()) {
             winnerName = secondLord.getName();
@@ -59,9 +62,19 @@ public class Battle {
 
     private void clash(final Monster attacker, final Monster defender) {
         defender.getDamage(attacker.hitEnemy());
+        System.out.println(attacker.getMonsterName() + " hits: " + attacker.hitEnemy());
+        System.out.println(defender.getMonsterName()+ " has: " + defender.getCurrentHealthPoints());
     }
 
     public String getWinnerName() {
         return winnerName;
+    }
+
+    private void cleanArmy(List<Monster> army) {
+        for (final Monster monster : army) {
+            if (monster == null) {
+                army.remove(monster);
+            }
+        }
     }
 }
