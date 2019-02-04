@@ -18,7 +18,7 @@ public abstract class Monster {
         return currentHealthPoints;
     }
 
-    public void setCurrentHealthPoints(int currentHealthPoints) {
+    public void setCurrentHealthPoints(final int currentHealthPoints) {
         this.currentHealthPoints = currentHealthPoints;
     }
 
@@ -26,7 +26,7 @@ public abstract class Monster {
         return totalDamage;
     }
 
-    public void setTotalDamage(int totalDamage) {
+    public void setTotalDamage(final int totalDamage) {
         this.totalDamage = totalDamage;
     }
 
@@ -37,17 +37,13 @@ public abstract class Monster {
     @Override
     public String toString() {
         return monsterName + " " +
-                "(HP=" + healthPoints + ")" +
+                "(HP=" + currentHealthPoints + ")" +
                 " wearing " + armourType +
                 " and has a" + (weaponType.equals(Weapons.AXE) ? "n " : " ") +
                 weaponType + "\n";
     }
 
-//    public int getHitPoints() {
-//        return hitPoints;
-//    }
-
-    public void setHitPoints(int hitPoints) {
+    public void setHitPoints(final int hitPoints) {
         this.hitPoints = hitPoints;
     }
 
@@ -55,31 +51,20 @@ public abstract class Monster {
         return monsterName;
     }
 
-    public void setMonsterName(String monsterName) {
+    public void setMonsterName(final String monsterName) {
         this.monsterName = monsterName;
     }
 
-//    public Armours getArmourType() {
-//        return armourType;
-//    }
-
-    public void setArmourType(Armours armourType) {
+    public void setArmourType(final Armours armourType) {
         this.armourType = armourType;
     }
 
-//    public Weapons getWeaponType() {
-//        return weaponType;
-//    }
 
-    public void setWeaponType(Weapons weaponType) {
+    public void setWeaponType(final Weapons weaponType) {
         this.weaponType = weaponType;
     }
 
-//    public int getHealthPoints() {
-//        return healthPoints;
-//    }
-
-    public void setHealthPoints(int healthPoints) {
+    public void setHealthPoints(final int healthPoints) {
         this.healthPoints = healthPoints;
     }
 

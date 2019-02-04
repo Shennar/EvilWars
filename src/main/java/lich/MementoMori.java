@@ -13,8 +13,4 @@ public class MementoMori {
     public int getCurrentHealthPoints() {
         return currentHealthPoints;
     }
-
-    public LichState getState() {
-        return state;
-    }
 }

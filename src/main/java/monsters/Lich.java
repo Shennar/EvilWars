@@ -9,8 +9,8 @@ public class Lich extends Monster {
     private LichState state;
     private EvilLord lord;
 
-    public Lich(EvilLord lord) {
-        this.setMonsterName(lord.getName() + "'s Lich");
+    public Lich(final EvilLord lord) {
+        this.setMonsterName(lord.getLordName() + "'s Lich");
         this.setHealthPoints(80);
         this.setHitPoints(0);
         this.setWeaponType(Weapons.FIREBALL);
@@ -21,14 +21,14 @@ public class Lich extends Monster {
     }
 
     @Override
-    public void getDamage(int damageCaused) {
+    public void getDamage(final int damageCaused) {
         setCurrentHealthPoints(getCurrentHealthPoints() - damageCaused);
         if (getCurrentHealthPoints() <= 0) {
             notifyLord();
         }
     }
 
-    public void setNewState(LichState state) {
+    public void setNewState(final LichState state) {
         this.state = state;
     }
 
@@ -40,17 +40,17 @@ public class Lich extends Monster {
         return state;
     }
 
-    public void resurrect(MementoMori magicJar) {
-        this.setCurrentHealthPoints(magicJar.getCurrentHealthPoints());
-        this.setNewState(new WasResurrected(this));
+    public void resurrect(final MementoMori magicJar) {
+        setCurrentHealthPoints(magicJar.getCurrentHealthPoints());
+        setNewState(new WasResurrected(this));
     }
 
     public MementoMori save() {
-        return new MementoMori(this.getCurrentHealthPoints(), this.state);
+        return new MementoMori(getCurrentHealthPoints(), state);
     }
 
     @Override
     public int hitEnemy() {
-        return this.getTotalDamage();
+        return getTotalDamage();
     }
 }

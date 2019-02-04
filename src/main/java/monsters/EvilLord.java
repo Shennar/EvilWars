@@ -2,6 +2,7 @@ package monsters;
 
 import lich.MementoMori;
 import lich.WasNotResurrected;
+import lich.WasResurrected;
 import monsters.builders.GoblinBuilder;
 import monsters.builders.OrcBuilder;
 
@@ -9,7 +10,7 @@ import java.util.*;
 
 public class EvilLord {
 
-    private String name = "Lord";
+    private String lordName = "Lord";
 
     private List<Monster> army = new ArrayList<Monster>();
 
@@ -19,7 +20,7 @@ public class EvilLord {
 
 
     public EvilLord(final String lordType) {
-        this.name = lordType + " " + name;
+        this.lordName = lordType + " " + lordName;
         captureLich();
         saveLich();
         createArmy();
@@ -35,11 +36,11 @@ public class EvilLord {
             }
             if (new Random().nextInt(101) <= 60) {
                 army.add(GoblinBuilder.cathcGoblin()
-                        .giveName("" + (i+1) + " of the " + name)
+                        .giveName("" + (i+1) + " of the " + lordName)
                         .build());
             } else {
                 army.add(OrcBuilder.cathcOrc()
-                        .giveName("" + (i+1) + " of the " + name)
+                        .giveName("" + (i+1) + " of the " + lordName)
                         .build());
             }
         }
@@ -52,13 +53,13 @@ public class EvilLord {
     public void onLichDeath() {
         if (lich.getState() instanceof WasNotResurrected) {
             resurrectLich();
-            lich.setNewState(new WasNotResurrected(this.lich));
+            lich.setNewState(new WasResurrected(lich));
         }
         lich.getState().voiceOfEvilLord();
     }
 
     public void resurrectLich() {
-        lich.resurrect(this.magicJar);
+        lich.resurrect(magicJar);
     }
 
     public void saveLich() {
@@ -66,10 +67,10 @@ public class EvilLord {
     }
 
     private void captureLich() {
-        this.lich = new Lich(this);
+        lich = new Lich(this);
     }
 
-    public String getName() {
-        return name;
+    public String getLordName() {
+        return lordName;
     }
 }
