@@ -9,6 +9,5 @@ public class EvilWars {
         battle.startBattle();
         System.out.println(battle.getWinnerName() + " wins the battle!");
         System.out.println("He will rule the Universe!");
-        System.out.println("In this battle each lich_life could be resurrected once by his Evil Lord.");
     }
 }
