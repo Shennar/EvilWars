@@ -59,7 +59,6 @@ public abstract class Monster {
         this.armourType = armourType;
     }
 
-
     public void setWeaponType(final Weapons weaponType) {
         this.weaponType = weaponType;
     }

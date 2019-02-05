@@ -7,8 +7,6 @@ import monsters.Monster;
 import java.util.Iterator;
 import java.util.List;
 
-import static java.util.Arrays.asList;
-
 public class Battle {
     private EvilLord firstLord;
     private EvilLord secondLord;
@@ -22,7 +20,6 @@ public class Battle {
     public void startBattle() {
         final List<Monster> firstLordArmy = firstLord.getArmy();
         final List<Monster> secondLordArmy = secondLord.getArmy();
-
         Iterator<Monster> firstArmyIterator;
         Iterator<Monster> secondArmyIterator;
         Monster firstWarrior;
@@ -31,7 +28,9 @@ public class Battle {
         int secondWarriorPosition;
         int battleRound = 1;
         while (!firstLordArmy.isEmpty() && !secondLordArmy.isEmpty()) {
+            System.out.println("+++++++++++++++++++++++++++++++++++");
             System.out.println("The round of battle: " + battleRound);
+            System.out.println("+++++++++++++++++++++++++++++++++++");
             System.out.println("The army of the " + firstLord.getLordName() + ":");
             System.out.println(firstLordArmy);
             System.out.println("The army of the " + secondLord.getLordName() + ":");
@@ -39,8 +38,6 @@ public class Battle {
             System.out.println("Fight!!!");
             firstArmyIterator = firstLordArmy.iterator();
             secondArmyIterator = secondLordArmy.iterator();
-//            firstWarrior = firstArmyIterator.next();
-//            secondWarrior = secondArmyIterator.next();
             while (firstArmyIterator.hasNext() && secondArmyIterator.hasNext()) {
                 firstWarrior = firstArmyIterator.next();
                 secondWarrior = secondArmyIterator.next();
@@ -50,11 +47,9 @@ public class Battle {
                 if (secondWarrior.getCurrentHealthPoints() > 0) {
                     clash(secondWarrior, firstWarrior);
                     if (firstWarrior.getCurrentHealthPoints() <= 0) {
-                       // firstLordArmy.remove(firstWarriorPosition);
                         firstLordArmy.set(firstWarriorPosition, new DeadCorpse());
                     }
                 } else {
-                   // secondLordArmy.remove(secondWarriorPosition);
                     secondLordArmy.set(secondWarriorPosition, new DeadCorpse());
                 }
             }
@@ -66,11 +61,11 @@ public class Battle {
     }
 
     private void clash(final Monster attacker, final Monster defender) {
-        defender.getDamage(attacker.hitEnemy());
         System.out.println("Clash!!! " + attacker.getMonsterName() + " hits " + defender.getMonsterName());
         System.out.println(attacker.getMonsterName() + " hits: " + attacker.hitEnemy());
         System.out.println(defender.getMonsterName() + " has: " + defender.getCurrentHealthPoints());
         System.out.println("===============================================");
+        defender.getDamage(attacker.hitEnemy());
     }
 
     public String getWinnerName() {
@@ -78,7 +73,7 @@ public class Battle {
     }
 
     private void cleanArmy(final List<Monster> army) {
-        for (int i = (army.size()-1); i >= 0; i--) {
+        for (int i = (army.size() - 1); i >= 0; i--) {
             if (army.get(i) instanceof DeadCorpse) {
                 army.remove(army.get(i));
             }

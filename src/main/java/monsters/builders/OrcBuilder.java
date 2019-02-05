@@ -6,7 +6,6 @@ public class OrcBuilder {
 
     private String monsterName;
 
-
     public static OrcBuilder cathcOrc() {
         return new OrcBuilder();
     }

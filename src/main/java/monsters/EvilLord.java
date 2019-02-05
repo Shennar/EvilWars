@@ -1,12 +1,14 @@
 package monsters;
 
-import lich.MementoMori;
-import lich.WasNotResurrected;
-import lich.WasResurrected;
+import lich_life.MementoMori;
+import lich_life.WasNotResurrected;
+import lich_life.WasResurrected;
 import monsters.builders.GoblinBuilder;
 import monsters.builders.OrcBuilder;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class EvilLord {
 
@@ -18,11 +20,10 @@ public class EvilLord {
 
     private MementoMori magicJar;
 
-
     public EvilLord(final String lordType) {
         this.lordName = lordType + " " + lordName;
         captureLich();
-        saveLich();
+        saveLich(lich);
         createArmy();
     }
 
@@ -36,11 +37,11 @@ public class EvilLord {
             }
             if (new Random().nextInt(101) <= 60) {
                 army.add(GoblinBuilder.cathcGoblin()
-                        .giveName("" + (i+1) + " of the " + lordName)
+                        .giveName("" + (i + 1) + " of the " + lordName)
                         .build());
             } else {
                 army.add(OrcBuilder.cathcOrc()
-                        .giveName("" + (i+1) + " of the " + lordName)
+                        .giveName("" + (i + 1) + " of the " + lordName)
                         .build());
             }
         }
@@ -52,17 +53,21 @@ public class EvilLord {
 
     public void onLichDeath() {
         if (lich.getState() instanceof WasNotResurrected) {
+            lich.getState().voiceOfEvilLord(lordName);
             resurrectLich();
             lich.setNewState(new WasResurrected(lich));
+            System.out.println(lich.getMonsterName() + " has: " + lich.getCurrentHealthPoints());
+        } else {
+            lich.getState().voiceOfEvilLord(lordName);
         }
-        lich.getState().voiceOfEvilLord();
     }
 
     public void resurrectLich() {
+        lich.getState().isResurrected(lich);
         lich.resurrect(magicJar);
     }
 
-    public void saveLich() {
+    public void saveLich(final Lich lich) {
         magicJar = lich.save();
     }
 

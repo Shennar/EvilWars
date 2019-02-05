@@ -1,8 +1,8 @@
 package monsters;
 
-import lich.LichState;
-import lich.MementoMori;
-import lich.WasResurrected;
+import lich_life.LichState;
+import lich_life.MementoMori;
+import lich_life.WasNotResurrected;
 
 public class Lich extends Monster {
 
@@ -18,6 +18,7 @@ public class Lich extends Monster {
         this.setCurrentHealthPoints(80);
         this.setTotalDamage(Weapons.FIREBALL.getDamage());
         this.lord = lord;
+        state = new WasNotResurrected(this);
     }
 
     @Override
@@ -41,12 +42,11 @@ public class Lich extends Monster {
     }
 
     public void resurrect(final MementoMori magicJar) {
-        setCurrentHealthPoints(magicJar.getCurrentHealthPoints());
-        setNewState(new WasResurrected(this));
+        setCurrentHealthPoints(magicJar.getSavedHealthPoints());
     }
 
     public MementoMori save() {
-        return new MementoMori(getCurrentHealthPoints(), state);
+        return new MementoMori(getCurrentHealthPoints());
     }
 
     @Override
